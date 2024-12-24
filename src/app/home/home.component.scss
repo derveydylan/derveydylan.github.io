@@ -1,18 +1,199 @@
 #presentation
 {
-    padding: 85px 0;
+    margin-bottom: 3rem;
+
+    & > *
+    {
+        padding: 1.25rem 0;
+    }
 
     #greetings
     {
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: var(--english-violet);
 
         img
         {
-            width: 350px;
-            height: 350px;
+            width: 18rem;
+            height: 18rem;
             border-radius: 50%;
+            border: 0.2rem solid var(--pale-purple);
+        }
+
+        #greetings-text
+        {
+            margin-left: 3rem;
+            color: var(--anti-flash-white);
+
+            h1
+            {
+                letter-spacing: 0.2rem;
+                color: var(--maya-blue);
+            }
+
+            p
+            {
+                font-size: 1.5rem;
+            }
+
+            em
+            {
+                padding-left: 4rem;
+            }
+        }
+    }
+
+    #activity, #personal-quote
+    {
+        text-align: center;
+    }
+
+    #activity
+    {
+        margin: 2rem 0;
+
+        p
+        {
+            font-size: 1.33rem;
+        }
+    }
+
+    #personal-quote
+    {
+        position: relative;
+        background-color: var(--amethyst);
+        border-radius: 0.33rem;
+        width: fit-content;
+        margin: auto;
+        padding: 0.25rem 1rem;
+
+        i
+        {
+            position: absolute;
+            font-size: 3.5rem;
+            color: var(--french-mauve);
+
+            &:first-of-type
+            {
+                top: -2.2rem;
+                left: -0.5rem;
+            }
+
+            &:last-of-type
+            {
+                bottom: -2.2rem;
+                right: -0.5rem;
+            }
+        }
+
+        p
+        {
+            font-size: 1.2rem;
+            color: var(--anti-flash-white);
+        }
+    }
+}
+
+#quick-links
+{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+    background-color: var(--dark-purple);
+
+    .quick-link
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--pale-purple);
+        padding: 1rem;
+        border-radius: 0.15rem;
+        flex-basis: 22.5%;
+        text-align: center;
+        max-width: 15rem;
+
+        p
+        {
+            font-size: 1.1rem;
+        }
+    }
+
+    .quick-link + .quick-link
+    {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #presentation
+    {
+        #greetings
+        {
+            flex-direction: column;
+
+            img
+            {
+                width: 9rem;
+                height: 9rem;
+            }
+
+            #greetings-text
+            {
+                margin-left: 0;
+                text-align: center;
+
+                p
+                {
+                    font-size: 1.25rem;
+                }
+
+                em
+                {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        #personal-quote
+        {
+            border-radius: 0;
+            margin: 0;
+            padding: 0.25rem 0;
+            width: 100%;
+
+            i
+            {
+                &:first-of-type
+                {
+                    left: 2rem;
+                }
+
+                &:last-of-type
+                {
+                    right: 2rem;
+                }
+
+            }
+        }
+    }
+
+    #quick-links
+    {
+        flex-direction: column;
+        padding: 1.5rem;
+
+        .quick-link
+        {
+            max-width: 100%;
+        }
+
+        .quick-link + .quick-link
+        {
+            margin-left: 0;
+            margin-top: 2rem;
         }
     }
 }

@@ -32,6 +32,7 @@
 
 body
 {
+    background-color: var(--anti-flash-white);
     padding: 0;
     margin: 0;
 
@@ -50,8 +51,14 @@ h1, h2, h3, h4, h5, h6
 
 h1
 {
-    font-size: 64px;
-    margin: 15px auto;
+    font-size: 4rem;
+    margin: 1.1rem auto;
+}
+
+h2
+{
+    font-size: 2.5rem;
+    margin: 1.1rem auto;
 }
 
 /* Links */
@@ -81,9 +88,31 @@ li
 /* Buttons */
 .btn
 {
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.33rem;
+    border: 0.2rem solid transparent;
+    transition: 0.25s;
+    font-size: 1rem;
+    text-align: center;
+}
 
-    .btn-primary
+.btn-primary
+{
+    border-color: var(--french-mauve);
+    background-color: var(--french-mauve);
+    color: var(--pale-purple);
+
+    &:hover
     {
+        background-color: var(--pale-purple);
+        color: var(--french-mauve);
+    }
+}
 
+@media (max-width: 768px)
+{
+    h1
+    {
+        font-size: 3.25em;
     }
 }

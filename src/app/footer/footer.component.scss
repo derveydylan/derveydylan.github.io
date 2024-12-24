@@ -1,10 +1,10 @@
 footer
 {
     display: flex;
-    padding: 40px;
+    padding: 2.75rem;
     background-color: var(--night);
     color: var(--pale-purple);
-    font-size: 16px;
+    font-size: 1.15em;
 
     & > div
     {
@@ -12,25 +12,25 @@ footer
 
         & > *:nth-child(2)
         {
-            margin: 20px 0;
+            margin: 1.5rem 0;
         }
     }
 
     #get-in-touch
     {
         text-align: center;
-        margin: 0 15px;
+        margin: 0 1rem;
 
         #icons
         {
             display: flex;
             justify-content: space-between;
-            width: 80px;
+            width: 5rem;
             margin: auto;
 
             i
             {
-                font-size: 30px;
+                font-size: 2rem;
             }
         }
     }
@@ -41,12 +41,12 @@ footer
     footer
     {
         flex-direction: column-reverse;
-        padding: 20px;
+        padding: 1.4rem;
 
         & > div:not(:last-of-type)
         {
             width: 100%;
-            margin: 10px 0 !important;
+            margin: 0.8rem 0 !important;
         }
 
         #get-in-touch
