@@ -13,8 +13,8 @@ nav
 {
     display: flex;
     justify-content: space-between;
-    height: 60px;
-    padding: 10px;
+    height: 4rem;
+    padding: 0.8rem;
 
     #logo a
     {
@@ -23,16 +23,16 @@ nav
 
         img
         {
-            height: 60px;
+            height: 4rem;
         }
 
         p
         {
             font-family: 'Josefin Sans', monospace;
-            font-size: 39px;
+            font-size: 2.5rem;
             color: var(--anti-flash-white);
             margin: 0;
-            padding: 6px 0 0 10px;
+            padding: 0.4rem 0 0 0.6rem;
         }
 
         span
@@ -63,14 +63,14 @@ nav
         {
             border: 0 solid var(--maya-blue);
             color: var(--pale-purple);
-            padding: 0 5px;
-            margin: 0 5px;
+            padding: 0 0.33rem;
+            margin: 0 0.33rem;
             transition: 0.2s;
-            font-size: 20px;
+            font-size: 1.25rem;
 
             &:hover
             {
-                border-bottom-width: 6px;
+                border-bottom-width: 0.4rem;
             }
         }
 
@@ -104,7 +104,7 @@ nav
 
             &:hover
             {
-                box-shadow: inset 0 -3px var(--maya-blue);
+                box-shadow: inset 0 -0.2rem var(--maya-blue);
             }
         }
     }
