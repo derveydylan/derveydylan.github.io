@@ -1,0 +1,139 @@
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 3rem auto;
+    width: 90%;
+
+    &:nth-child(odd) .aptitude-content
+    {
+        flex-direction: row-reverse;
+    }
+
+    h2
+    {
+        padding: 0.5rem 3rem;
+        border-bottom: 0.2rem solid var(--french-mauve);
+    }
+
+    &:nth-child(odd) h2
+    {
+        border-bottom-color: var(--maya-blue);
+    }
+
+    .aptitude-content
+    {
+        display: flex;
+        justify-content: center;
+        padding: 0 3rem;
+
+        & > div
+        {
+            padding: 0 2rem;
+        }
+
+        .technologies
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            border: 0.33rem solid var(--amethyst);
+            border-radius: 0.75rem;
+            background-color: var(--pale-purple);
+            margin: 1rem auto;
+            padding: 1rem;
+
+            img
+            {
+                width: auto;
+                height: 3rem;
+                transition: all 0.25s ease;
+                margin: 0.5rem;
+
+                &:hover
+                {
+                    transform: scale(1.15);
+                }
+            }
+
+            img + img
+            {
+                margin-left: 1rem;
+            }
+        }
+
+        & > img
+        {
+            width: 12.5rem;
+            height: auto;
+            border-radius: 1rem;
+            border: 0.33rem solid var(--amethyst);
+            object-fit: cover;
+        }
+    }
+}
+
+@media (min-width: 1500px)
+{
+    section
+    {
+        width: 50%;
+
+        .aptitude-content > img
+        {
+            width: 15rem;
+        }
+    }
+}
+
+@media (max-width: 1000px)
+{
+    section
+    {
+        .aptitude-content > img
+        {
+            width: 10rem;
+        }
+    }
+}
+
+@media (max-width: 768px)
+{
+    section
+    {
+        width: 90%;
+
+        h2
+        {
+            padding: 0;
+        }
+
+        .aptitude-content
+        {
+            padding: 0;
+
+            & > div
+            {
+                padding: 0;
+            }
+
+            & > img
+            {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px)
+{
+    section
+    {
+        h2
+        {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
