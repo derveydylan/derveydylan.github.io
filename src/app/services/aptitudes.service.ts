@@ -15,7 +15,7 @@ export class AptitudesService
             "Créer des sites ou applications web entières, ou me concentrer sur \
             l'interface utilisateur des projets est la chose que je préfère faire !",
             [
-                "HTML", "CSS", "PHP", "CodeIgniter", "JavaScript", "React", "Angular", "Figma"
+                "HTML", "CSS", "PHP", "CodeIgniter", "JavaScript", "TypeScript", "React", "Angular", "Figma"
             ],
             "/assets/images/code_snippet.jpg",
             "Extrait de code."

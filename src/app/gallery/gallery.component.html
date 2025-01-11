@@ -1,0 +1,41 @@
+<app-page-title title="Galerie"></app-page-title>
+
+
+
+<section id="gallery">
+     @for(project of projects; track project.name)
+     {
+         <div class="project">
+            <div class="image-container">
+                <img [src]="project.imageSrc"
+                    [alt]="'Page d\'accueil du site ' + project.name + '.'">
+
+                <div class="buttons-container">
+                    @if(project.siteUrl !== "")
+                    {
+                        <a class="btn btn-primary" [href]="project.siteUrl">Accéder au site</a>
+                    }
+
+                    <a class="btn btn-primary" [href]="project.repoUrl">Accéder au repository</a>
+                </div>
+            </div>
+
+            <div class="content-container">
+                <h2>{{ project.name }}</h2>
+
+                <p>{{ project.description }}</p>
+
+                <div>
+                    @for(technology of project.technologiesUsed; track technology)
+                    {
+                        <img [src]="'/assets/images/technologies/' + technology + '.png'"
+                            [alt]="'Logo de ' + technology + '.'"
+                            [title]="technology">
+                    }
+                </div>
+
+                <p><em>{{ project.tag }}</em></p>
+            </div>
+         </div>
+     }
+</section>

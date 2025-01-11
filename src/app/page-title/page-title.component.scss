@@ -3,3 +3,11 @@ h1
     width: fit-content;
     margin: 5rem auto;
 }
+
+@media (max-width: 500px)
+{
+    h1
+    {
+        margin: 2.5rem auto;
+    }
+}
