@@ -1,0 +1,28 @@
+.technologies-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem auto;
+
+    img
+    {
+        width: auto;
+        height: 3rem;
+        transition: all 0.25s ease;
+        margin: 0.25rem 0.5rem;
+
+        &:hover
+        {
+            transform: scale(1.15);
+        }
+    }
+}
+
+.box
+{
+    border: 0.33rem solid var(--amethyst);
+    border-radius: 0.75rem;
+    background-color: var(--pale-purple);
+    padding: 1rem;
+}
