@@ -1,21 +1,17 @@
-<app-page-title title="Aptitudes"></app-page-title>
+<app-page-title title="Aptitudes" />
 
 @for(aptitude of aptitudes; track aptitude.title)
 {
     <section>
         <h2>{{ aptitude.title }}</h2>
+
         <div class="aptitude-content">
             <div>
                 <p>{{ aptitude.description }}</p>
-                <div class="technologies">
-                    @for(technology of aptitude.technologiesList; track technology)
-                    {
-                        <img [src]="'/assets/images/technologies/' + technology + '.png'"
-                            [alt]="'Logo de ' + technology + '.'"
-                            [title]="technology">
-                    }
-                </div>
+
+                <app-technologies-list [technologies]="aptitude.technologiesList" [box]="true" />
             </div>
+
             <img [src]="aptitude.imageSrc" [alt]="aptitude.imageAlt">
         </div>
     </section>

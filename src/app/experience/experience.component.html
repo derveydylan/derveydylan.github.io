@@ -1,0 +1,24 @@
+<div class="experience">
+    <p class="date-heading">
+        <strong>
+            {{ date }}
+        </strong>
+    </p>
+
+    <h3>{{ experience.activity }}</h3>
+
+    <p>
+        <em>
+            {{ experience.location.name }} <br>
+            {{ experience.location.address }} {{ experience.location.addressNumber }}<br>
+            {{ experience.location.npa }} {{ experience.location.city }}
+        </em>
+    </p>
+
+    <p>{{ experience.description }}</p>
+
+    @if(experience.technologiesList.length > 0)
+    {
+        <app-technologies-list [technologies]="experience.technologiesList" />
+    }
+</div>

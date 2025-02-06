@@ -1,6 +1,4 @@
-<app-page-title title="Galerie"></app-page-title>
-
-
+<app-page-title title="Galerie" />
 
 <section id="gallery">
      @for(project of projects; track project.name)
@@ -25,14 +23,7 @@
 
                 <p>{{ project.description }}</p>
 
-                <div>
-                    @for(technology of project.technologiesUsed; track technology)
-                    {
-                        <img [src]="'/assets/images/technologies/' + technology + '.png'"
-                            [alt]="'Logo de ' + technology + '.'"
-                            [title]="technology">
-                    }
-                </div>
+                <app-technologies-list [technologies]="project.technologiesUsed" />
 
                 <p><em>{{ project.tag }}</em></p>
             </div>

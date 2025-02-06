@@ -1,0 +1,21 @@
+<app-page-title title="Périple" />
+
+<section id="journey">
+    <div class="text-left">
+        <h2>Professionnel</h2>
+
+        @for(proExp of professionalExperiences; track proExp.activity)
+        {
+            <app-experience [experience]="proExp" />
+        }
+    </div>
+
+    <div class="text-right">
+        <h2>Scolaire</h2>
+
+        @for(schExp of scholarExperiences; track schExp.activity)
+        {
+            <app-experience [experience]="schExp" />
+        }
+    </div>
+</section>

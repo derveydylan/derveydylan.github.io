@@ -57,32 +57,6 @@
         {
             padding: 0 1.25rem;
 
-            div
-            {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                margin: 1rem auto;
-
-                img
-                {
-                    width: auto;
-                    height: 2rem;
-                    transition: all 0.25s ease;
-                    margin: 0.25rem;
-
-                    &:hover
-                    {
-                        transform: scale(1.15);
-                    }
-                }
-
-                img + img
-                {
-                    margin-left: 0.5rem;
-                }
-            }
-
             em
             {
                 background-color: var(--maya-blue);

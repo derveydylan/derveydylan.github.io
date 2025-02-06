@@ -1,0 +1,12 @@
+@if(technologies.length > 0)
+{
+    <div class="technologies-list" [class.box]="box">
+
+        @for(technology of technologies; track technology)
+        {
+            <img [src]="'/assets/images/technologies/' + technology + '.png'"
+                [alt]="'Logo de ' + technology + '.'"
+                [title]="technology">
+        }
+    </div>
+}

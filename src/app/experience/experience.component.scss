@@ -1,0 +1,38 @@
+.experience
+{
+    margin: 1.25rem 0;
+    padding: 0 2rem;
+
+    .date-heading
+    {
+        padding: 0.33rem 0.66rem;
+        background-color: var(--french-mauve);
+        border-radius: 0.25rem;
+        font-size: 1.15rem;
+    }
+
+    &:not(:has(.technologies-list))
+    {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .experience
+    {
+        background-color: var(--pale-purple);
+        min-height: max-content;
+        padding: 0;
+
+        & > *
+        {
+            padding: 0 1rem;
+        }
+
+        .date-heading
+        {
+            border-radius: 0;
+        }
+    }
+}
