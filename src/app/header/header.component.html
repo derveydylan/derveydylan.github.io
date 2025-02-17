@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div id="logo">
-            <a routerLink="/">
+            <a routerLink="/" (click)="closeMenu()">
                 <img src="/assets/images/DD_Logo_Zoomed.png" alt="Logo du site">
                 <p>
                     <span>D</span>ervey
@@ -10,7 +10,11 @@
             </a>
         </div>
 
-        <div id="links">
+        <p id="links-menu" (click)="toggleMenu()">
+            <i id="menu-icon" class="fa-solid fa-bars"></i> {{ menuButtonText }}
+        </p>
+
+        <div id="links" (click)="closeMenu()">
             <a routerLink="/aptitudes" routerLinkActive="active-link">
                 Aptitudes
             </a>
