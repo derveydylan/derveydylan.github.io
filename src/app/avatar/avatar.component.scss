@@ -1,0 +1,17 @@
+img
+{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    border: 0.2rem solid var(--pale-purple);
+    align-self: center;
+}
+
+@media (max-width: 768px)
+{
+    img
+    {
+        width: 9rem;
+        height: 9rem;
+    }
+}

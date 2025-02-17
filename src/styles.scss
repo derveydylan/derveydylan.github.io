@@ -47,6 +47,11 @@ p
     font-size: 1rem;
 }
 
+p + p
+{
+    margin-top: 1rem !important;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6
 {
@@ -59,12 +64,14 @@ h1
 {
     font-size: 4rem;
     margin: 1.25rem auto;
+    text-align: center;
 }
 
 h2
 {
     font-size: 2.5rem;
     margin: 1.1rem auto;
+    text-align: center;
 }
 
 h3
@@ -92,9 +99,11 @@ a:not(.btn), a:not(.btn):visited
 }
 
 /* Lists */
-li
+ul, ol, li
 {
+    font-size: 1rem;
     list-style-type: none;
+    padding: 0;
 }
 
 /* Buttons */
