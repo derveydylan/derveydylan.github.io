@@ -1,0 +1,59 @@
+#personal-quote
+{
+    position: relative;
+    background-color: var(--amethyst);
+    border-radius: 0.33rem;
+    width: fit-content;
+    margin: 3rem auto;
+    padding: 0.25rem 1rem;
+    text-align: center;
+
+    i
+    {
+        position: absolute;
+        font-size: 3.5rem;
+        color: var(--french-mauve);
+
+        &:first-of-type
+        {
+            top: -2.2rem;
+            left: -0.5rem;
+        }
+
+        &:last-of-type
+        {
+            bottom: -2.2rem;
+            right: -0.5rem;
+        }
+    }
+
+    p
+    {
+        font-size: 1.2rem;
+        color: var(--anti-flash-white);
+    }
+}
+
+@media (max-width: 768px)
+{
+    #personal-quote
+    {
+        border-radius: 0;
+        padding: 0.25rem 0;
+        width: 100%;
+
+        i
+        {
+            &:first-of-type
+            {
+                left: 2rem;
+            }
+
+            &:last-of-type
+            {
+                right: 2rem;
+            }
+
+        }
+    }
+}

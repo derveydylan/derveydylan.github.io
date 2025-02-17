@@ -1,7 +1,5 @@
 #presentation
 {
-    margin-bottom: 3rem;
-
     & > *
     {
         padding: 1.25rem 0;
@@ -13,14 +11,6 @@
         justify-content: center;
         align-items: center;
         background-color: var(--english-violet);
-
-        img
-        {
-            width: 18rem;
-            height: 18rem;
-            border-radius: 50%;
-            border: 0.2rem solid var(--pale-purple);
-        }
 
         #greetings-text
         {
@@ -57,41 +47,6 @@
         p
         {
             font-size: 1.33rem;
-        }
-    }
-
-    #personal-quote
-    {
-        position: relative;
-        background-color: var(--amethyst);
-        border-radius: 0.33rem;
-        width: fit-content;
-        margin: auto;
-        padding: 0.25rem 1rem;
-
-        i
-        {
-            position: absolute;
-            font-size: 3.5rem;
-            color: var(--french-mauve);
-
-            &:first-of-type
-            {
-                top: -2.2rem;
-                left: -0.5rem;
-            }
-
-            &:last-of-type
-            {
-                bottom: -2.2rem;
-                right: -0.5rem;
-            }
-        }
-
-        p
-        {
-            font-size: 1.2rem;
-            color: var(--anti-flash-white);
         }
     }
 }
@@ -154,28 +109,6 @@
                 {
                     padding-left: 0;
                 }
-            }
-        }
-
-        #personal-quote
-        {
-            border-radius: 0;
-            margin: 0;
-            padding: 0.25rem 0;
-            width: 100%;
-
-            i
-            {
-                &:first-of-type
-                {
-                    left: 2rem;
-                }
-
-                &:last-of-type
-                {
-                    right: 2rem;
-                }
-
             }
         }
     }

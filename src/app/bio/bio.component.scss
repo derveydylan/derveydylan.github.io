@@ -1,0 +1,142 @@
+section
+{
+    margin: 3rem 0;
+}
+
+#about-me
+{
+    display: flex;
+    justify-content: center;
+    background-color: var(--english-violet);
+    padding: 1rem;
+
+    #personal-data
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+
+        .item
+        {
+            display: inline-flex;
+            align-items: center;
+            margin: 0.5rem 1rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            background-color: var(--pale-purple);
+
+            i
+            {
+                font-size: 2rem;
+                width: 17%;
+            }
+
+            p
+            {
+                width: 83%;
+                font-size: 1.5rem;
+                margin: 0 0 0 1rem;
+            }
+        }
+    }
+}
+
+#informatics-interest
+{
+    p
+    {
+        font-size: 1.25rem;
+        text-align: justify;
+        margin: auto;
+        width: 55%;
+    }
+}
+
+#characteristics
+{
+    background-color: var(--dark-purple);
+    color: var(--anti-flash-white);
+    padding: 2rem;
+
+    #characteristics-list
+    {
+        display: flex;
+        justify-content: center;
+
+        .characteristic
+        {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 25%;
+            margin: 1rem 2rem;
+            border-bottom: 0.25rem solid var(--maya-blue);
+
+            i
+            {
+                font-size: 3rem;
+                text-align: center;
+                color: var(--maya-blue);
+            }
+
+            p
+            {
+                padding: 0 1rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px)
+{
+    #characteristics
+    {
+        #characteristics-list
+        {
+            flex-wrap: wrap;
+
+            .characteristic
+            {
+                flex-basis: 35%;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px)
+{
+    #about-me
+    {
+        flex-direction: column;
+        align-items: center;
+
+        #personal-data
+        {
+            padding: 1rem 0 0 0;
+        }
+    }
+
+    #informatics-interest
+    {
+        p
+        {
+            font-size: 1.15rem;
+            text-align: center;
+            width: fit-content;
+            padding: 1rem;
+        }
+    }
+
+    #characteristics
+    {
+        #characteristics-list
+        {
+            flex-direction: column;
+
+            .characteristic
+            {
+                margin: 1rem 0;
+            }
+        }
+    }
+}

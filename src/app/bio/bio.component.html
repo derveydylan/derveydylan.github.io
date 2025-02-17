@@ -1,0 +1,68 @@
+<app-page-title title="Biographie" />
+
+<section id="about-me">
+    <app-avatar style="display: flex;"/>
+
+    <div id="personal-data">
+        <div class="item">
+            <i class="fa-solid fa-id-card"></i>
+
+            <p>Dylan Dervey</p>
+        </div>
+
+        <div class="item">
+            <i class="fa-solid fa-cake-candles"></i>
+
+            <p>{{ age }} ans</p>
+        </div>
+
+        <div class="item">
+            <i class="fa-solid fa-map-location-dot"></i>
+
+            <p>Vaud, Suisse</p>
+        </div>
+
+        <div class="item">
+            <i class="fa-solid fa-language"></i>
+
+            <p>Français, Anglais</p>
+        </div>
+    </div>
+</section>
+
+<section id="informatics-interest">
+    <h2>Mon rapport à l'informatique</h2>
+
+    <p>
+        L’informatique me tient à cœur depuis de nombreuses années.
+        J’ai de l’intérêt pour la technique et les technologies car j’aime
+        savoir comment elles sont construites. L’évolution incessante
+        de ces domaines me motive à les découvrir.
+    </p>
+
+    <p>
+        Après trois ans de gymnase, j’ai souhaité démarrer dans
+        ce métier offrant énormément de matières à apprendre.
+        En tant que développeur, j’aime être en backoffice pour
+        concevoir des applications et sites internet.
+    </p>
+</section>
+
+<section id="characteristics">
+    <h2>Je suis...</h2>
+
+    <div id="characteristics-list">
+        @for(char of characteristics; track char.name)
+        {
+            <div class="characteristic">
+                <i class="fa-solid fa-{{ char.icon }}"></i>
+
+                <h3>{{ char.name }}</h3>
+
+                <p>{{ char.explanation }}</p>
+            </div>
+        }
+    </div>
+</section>
+
+<app-personal-quote />
