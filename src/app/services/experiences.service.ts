@@ -25,7 +25,7 @@ export class ExperiencesService
             d'expérience professionnelle et apprendre de nouvelles technologies. \
             Je code sur du backend comme sur du frontend.",
             [
-                "CSS", "CodeIgniter", "HTML", "JavaScript", "MySQL", "PHP", "React"
+                "Bootstrap", "CSS", "CodeIgniter", "Figma", "HTML", "JavaScript", "MySQL", "PHP", "React", "Tailwind"
             ]
         ),
         new Experience(
@@ -45,7 +45,7 @@ export class ExperiencesService
             des petits réseaux, ainsi que installé, configuré, documenté, \
             moult appareils.",
             [
-                "Arduino", "CSS", "CodeIgniter", "HTML", "PHP", "PowerShell", "Python", "WordPress"
+                "Arduino", "Bootstrap", "CSS", "CodeIgniter", "HTML", "PHP", "PowerShell", "Python", "WordPress"
             ]
         ),
         new Experience(
@@ -83,7 +83,7 @@ export class ExperiencesService
             },
             "J'acquiers de nouvelles connaissances dans divers domaines pour mon futur métier. Jusqu'à présent, mes notes sont majoritairement excellentes.",
             [
-                "Angular", "Bash", "CSharp", "CSS", "Docker", "Figma", "HTML", "Java", "JavaScript", "MongoDB", "MySQL"
+                "Angular", "Bash", "Capacitor", "CSharp", "CSS", "Docker", "ExpressJS", "Figma", "HTML", "Ionic", "Java", "JavaScript", "MongoDB", "MySQL"
             ]
         ),
         new Experience(

@@ -26,8 +26,14 @@ https://www.pngwing.com/en/free-png-azewd
 **Bash.png** \
 https://bashlogo.com/img/symbol/png/full_colored_dark.png
 
+**Bootstrap.png** \
+https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/301px-Bootstrap_logo.svg.png
+
 **C++.png** \
 https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/213px-ISO_C%2B%2B_Logo.svg.png
+
+**Capacitor.png** \
+https://seeklogo.com/vector-logo/394264/capacitor
 
 **CSharp.png** \
 https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/205px-C_Sharp_Logo_2023.svg.png
@@ -44,11 +50,17 @@ https://www.pngwing.com/en/free-png-amxda#google_vignette
 **Excel.png** \
 https://www.vecteezy.com/png/27179363-microsoft-excel-icon-logo-symbol
 
+**ExpressJS.png** \
+https://icons8.com/icon/kg46nzoJrmTR/express-js
+
 **Figma.png** \
 https://static.figma.com/uploads/4fbf4d754dbbc027ba1530205f8747cd97d532e5
 
 **HTML.png** \
 https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png
+
+**Ionic.png** \
+https://ionic.io/about/brand
 
 **Java.png** \
 https://upload.wikimedia.org/wikipedia/fr/thumb/2/2e/Java_Logo.svg/129px-Java_Logo.svg.png
@@ -76,6 +88,9 @@ https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community
 
 **React.png** \
 https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png
+
+**Tailwind.png** \
+https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png
 
 **Word.png** \
 https://pixabay.com/vectors/microsoft-word-ms-word-ms-word-icon-5963679/
