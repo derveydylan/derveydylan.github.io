@@ -109,6 +109,8 @@ ul, ol, li
 /* Buttons */
 .btn
 {
+    width: max-content;
+    margin: auto;
     padding: 0.4rem 0.6rem;
     border-radius: 0.33rem;
     border: 0.2rem solid transparent;

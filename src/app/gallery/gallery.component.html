@@ -4,21 +4,10 @@
      @for(project of projects; track project.name)
      {
          <div class="project">
-            <div class="image-container">
-                <img [src]="project.imageSrc"
-                    [alt]="'Page d\'accueil du site ' + project.name + '.'">
+             <img [src]="project.imageSrc"
+                 [alt]="'Page d\'accueil du site ' + project.name + '.'">
 
-                <div class="buttons-container">
-                    @if(project.siteUrl !== "")
-                    {
-                        <a class="btn btn-primary" [href]="project.siteUrl">Accéder au site</a>
-                    }
-
-                    <a class="btn btn-primary" [href]="project.repoUrl">Accéder au repository</a>
-                </div>
-            </div>
-
-            <div class="content-container">
+             <div class="content-container">
                 <h2>{{ project.name }}</h2>
 
                 <p>{{ project.description }}</p>
@@ -27,6 +16,25 @@
 
                 <p><em>{{ project.tag }}</em></p>
             </div>
+
+            <div class="buttons-container">
+                @if(project.name === "Dervey Dylan")
+                {
+                    <p><em>Vous êtes sur ce site.</em></p>
+                }
+
+                @else if(project.siteUrl !== "")
+                {
+                    <a class="btn btn-primary" [href]="project.siteUrl" target="_blank">
+                        Accéder au site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                }
+
+                <a class="btn btn-primary" [href]="project.repoUrl" target="_blank">
+                    Accéder au repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
          </div>
+
      }
 </section>

@@ -13,4 +13,6 @@ export const routes: Routes =
     {path: "gallery", component: GalleryComponent},
     {path: "journey", component: JourneyComponent},
     {path: "bio", component: BioComponent},
+
+    {path: "**", redirectTo: ""}
 ];

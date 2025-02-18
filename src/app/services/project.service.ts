@@ -10,10 +10,10 @@ export class ProjectService
     private projects: Project[] =
     [
         new Project(
-            "Curriculum Vitae",
+            "Dervey Dylan",
             "Mon CV en ligne, réalisé pour montrer mes talents et permettre de pleinement me présenter.",
             [
-                "HTML", "CSS", "TypeScript", "Angular"
+                "Angular", "CSS", "HTML", "TypeScript"
             ],
             "/assets/images/projects/CV.png",
             "",
@@ -26,7 +26,7 @@ export class ProjectService
             "Un jeu de puzzle Lights Out en Angular, créé pour apprendre le framework. \
             Le jeu de base fonctionne et peut être largement enrichi.",
             [
-                "HTML", "CSS", "TypeScript", "Angular"
+                "Angular", "CSS", "HTML", "TypeScript"
             ],
             "/assets/images/projects/Togglight.png",
             "",
@@ -38,10 +38,10 @@ export class ProjectService
             "Un site web créé presque de zéro par mes soins pour automatiser \
             la gestion du planning des techniciens du helpdesk de l'ORIF de Pomy.",
             [
-                "HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL"
+                "Bootstrap", "CodeIgniter", "CSS", "HTML", "JavaScript", "MySQL", "PHP",
             ],
             "/assets/images/projects/Helpdesk.png",
-            "",
+            "https://helpdesk.sectioninformatique.net/",
             "https://github.com/Orifinformatique/helpdesk",
             "Professionnel"
         ),
@@ -51,7 +51,7 @@ export class ProjectService
             de ses apprentis. J'ai travaillé sur une nouvelle fonctionnalité majeure : \
             les bulletins de notes.",
             [
-                "HTML", "CSS", "JavaScript", "PHP", "CodeIgniter", "MySQL"
+                "Bootstrap", "CodeIgniter", "CSS", "HTML", "JavaScript", "MySQL", "PHP"
             ],
             "/assets/images/projects/Plafor.png",
             "",
@@ -63,7 +63,7 @@ export class ProjectService
             "Cette application vise à refaire le site Plafor, en utilisant des technologies \
             modernes, en séparant le frontend du backend.",
             [
-                "HTML", "CSS", "JavaScript", "React"
+                "CSS", "HTML", "JavaScript", "React", "Tailwind"
             ],
             "/assets/images/projects/Plafor.png",
             "",
