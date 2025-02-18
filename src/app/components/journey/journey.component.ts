@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { PageTitleComponent } from '../page-title/page-title.component';
-import { Experience } from '../models/experience';
-import { ExperiencesService } from '../services/experiences.service';
+import { Experience } from '../../models/experience';
+import { ExperiencesService } from '../../services/experiences.service';
 import { ExperienceComponent } from '../experience/experience.component';
 
 @Component({

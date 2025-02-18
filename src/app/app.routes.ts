@@ -1,18 +1,18 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AptitudesComponent } from './aptitudes/aptitudes.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { JourneyComponent } from './journey/journey.component';
-import { BioComponent } from './bio/bio.component';
+import { HomeComponent } from './components/home/home.component';
+import { AptitudesComponent } from './components/aptitudes/aptitudes.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { JourneyComponent } from './components/journey/journey.component';
+import { BioComponent } from './components/bio/bio.component';
 
 export const routes: Routes =
 [
-    {path: "", component: HomeComponent},
+    { path: "", component: HomeComponent },
 
-    {path: "aptitudes", component: AptitudesComponent},
-    {path: "gallery", component: GalleryComponent},
-    {path: "journey", component: JourneyComponent},
-    {path: "bio", component: BioComponent},
+    { path: "aptitudes", component: AptitudesComponent, title: "Aptitudes" },
+    { path: "gallery", component: GalleryComponent, title: "Galerie" },
+    { path: "journey", component: JourneyComponent, title: "Périple" },
+    { path: "bio", component: BioComponent, title: "Biographie" },
 
-    {path: "**", redirectTo: ""}
+    { path: "**", redirectTo: "" }
 ];

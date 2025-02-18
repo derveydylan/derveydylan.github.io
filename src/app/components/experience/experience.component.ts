@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Experience } from '../models/experience';
+import { Experience } from '../../models/experience';
 import { TechnologiesListComponent } from '../technologies-list/technologies-list.component';
 
 @Component({

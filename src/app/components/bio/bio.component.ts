@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { PageTitleComponent } from '../page-title/page-title.component';
 import { PersonalQuoteComponent } from '../personal-quote/personal-quote.component';
 import { AvatarComponent } from '../avatar/avatar.component';
-import { Characteristic } from '../models/characteristic';
-import { CharacteristicsService } from '../services/characteristics.service';
+import { Characteristic } from '../../models/characteristic';
+import { CharacteristicsService } from '../../services/characteristics.service';
 
 @Component({
   selector: 'app-bio',
