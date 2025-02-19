@@ -49,6 +49,17 @@
     }
 }
 
+@media (min-width: 1440px)
+{
+    #gallery
+    {
+        .project
+        {
+            flex-basis: 25%;
+        }
+    }
+}
+
 @media (max-width: 1000px)
 {
     #gallery
