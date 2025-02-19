@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PageTitleComponent } from '../page-title/page-title.component';
-import { Aptitude } from '../models/aptitude';
-import { AptitudesService } from '../services/aptitudes.service';
+import { Aptitude } from '../../models/aptitude';
+import { AptitudesService } from '../../services/aptitudes.service';
 import { TechnologiesListComponent } from '../technologies-list/technologies-list.component';
 
 @Component({

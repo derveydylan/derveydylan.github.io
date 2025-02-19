@@ -44,11 +44,19 @@ section
     }
 }
 
-@media (min-width: 1500px)
+@media (min-width: 2000px)
 {
     section
     {
-        width: 50%;
+        width: 40% !important;
+    }
+}
+
+@media (min-width: 1400px)
+{
+    section
+    {
+        width: 60%;
 
         .aptitude-content > img
         {

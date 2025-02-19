@@ -1,0 +1,141 @@
+header
+{
+    background-color: var(--dark-purple);
+
+    a:hover
+    {
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 4rem;
+        padding: 0.8rem;
+
+        #logo a
+        {
+            display: flex;
+            align-items: center;
+
+            img
+            {
+                height: 4rem;
+            }
+
+            p
+            {
+                font-family: 'Josefin Sans', monospace;
+                font-size: 2.5rem;
+                color: var(--anti-flash-white);
+                margin: 0;
+                padding: 0.4rem 0 0 0.6rem;
+            }
+
+            span
+            {
+                transition: 0.3s;
+            }
+
+            &:hover
+            {
+                span:first-of-type
+                {
+                    color: var(--french-mauve);
+                }
+
+                span:last-of-type
+                {
+                    color: var(--maya-blue);
+                }
+            }
+        }
+
+        #links-menu
+        {
+            display: none;
+        }
+
+        #links
+        {
+            display: flex;
+            align-items: center;
+
+            a
+            {
+                border: 0 solid var(--maya-blue);
+                color: var(--pale-purple);
+                padding: 0 0.33rem;
+                margin: 0 0.33rem;
+                transition: 0.2s;
+                font-size: 1.25rem;
+
+                &:hover
+                {
+                    border-bottom-width: 0.4rem;
+                }
+            }
+
+            .active-link
+            {
+                color: var(--french-mauve);
+            }
+        }
+    }
+}
+
+@media (max-width: 770px)
+{
+    #logo p
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 500px)
+{
+    header
+    {
+        nav
+        {
+            .active-menu
+            {
+                max-height: 12rem !important;
+            }
+
+            #links-menu
+            {
+                display: block;
+                color: var(--anti-flash-white);
+                align-self: center;
+                font-size: 1.25rem;
+            }
+
+            #links
+            {
+                position: absolute;
+                top: 5.6rem;
+                right: 0;
+                max-height: 0;
+                overflow-y: hidden;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                background-color: var(--dark-purple);
+                border-radius: 0 0 0 1rem;
+                z-index: 9999;
+                transition: 0.5s;
+
+                a
+                {
+                    width: 100%;
+                    border-bottom: none;
+                    padding: 0.5rem;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

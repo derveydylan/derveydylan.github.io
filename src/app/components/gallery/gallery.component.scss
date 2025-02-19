@@ -1,0 +1,83 @@
+#gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--english-violet);
+
+    .project
+    {
+
+        flex-basis: 40%;
+        margin: 2rem;
+        text-align: center;
+        background-color: var(--pale-purple);
+        border-radius: 1rem;
+        border: 0.25rem solid var(--french-mauve);
+
+        img
+        {
+            width: 100%;
+            border-radius: 0.75rem 0.75rem 0 0;
+        }
+
+        .content-container
+        {
+            padding: 0 0.75rem;
+
+            em
+            {
+                background-color: var(--maya-blue);
+                border-radius: 0.33rem;
+                padding: 0.1rem 0.5rem;
+                font-size: 0.85rem;
+            }
+        }
+
+        .buttons-container
+        {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem 0;
+
+            .btn + .btn
+            {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px)
+{
+    #gallery
+    {
+        .project
+        {
+            flex-basis: 25%;
+        }
+    }
+}
+
+@media (max-width: 1000px)
+{
+    #gallery
+    {
+        padding: 0;
+    }
+}
+
+@media (max-width: 700px)
+{
+    #gallery
+    {
+        flex-direction: column;
+        padding: 0.5rem;
+
+        .project
+        {
+            margin: 1rem;
+        }
+    }
+}

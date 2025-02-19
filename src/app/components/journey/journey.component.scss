@@ -38,6 +38,23 @@
     }
 }
 
+@media (min-width: 2300px)
+{
+    #journey
+    {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 1600px)
+{
+    #journey
+    {
+        width: 75%;
+        margin: auto;
+    }
+}
+
 @media (max-width: 767px)
 {
     #journey

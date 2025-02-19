@@ -87,6 +87,29 @@ section
     }
 }
 
+@media (min-width: 1800px)
+{
+    #characteristics
+    {
+        #characteristics-list
+        {
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 1440px)
+{
+    #informatics-interest
+    {
+        p
+        {
+            width: 33%;
+        }
+    }
+}
+
 @media (max-width: 950px)
 {
     #characteristics
