@@ -1,7 +1,7 @@
 # Dervey Dylan
 
-This is my online curriculum vitae.
-A website will be available when the project will be finished.
+This is my online curriculum vitae. \
+You can see it on https://derveydylan.github.io.
 
 # Run in local
 
