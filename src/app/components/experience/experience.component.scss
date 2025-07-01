@@ -10,11 +10,6 @@
         border-radius: 0.25rem;
         font-size: 1.15rem;
     }
-
-    &:not(:has(.technologies-list))
-    {
-        height: 18rem;
-    }
 }
 
 @media (max-width: 767px)

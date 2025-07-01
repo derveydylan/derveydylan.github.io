@@ -7,13 +7,14 @@
 
     <h3>{{ experience.activity }}</h3>
 
-    <p>
-        <em>
+    @if(experience.location !== null)
+    {
+        <p><em>
             {{ experience.location.name }} <br>
             {{ experience.location.address }} {{ experience.location.addressNumber }}<br>
             {{ experience.location.npa }} {{ experience.location.city }}
-        </em>
-    </p>
+        </em></p>
+    }
 
     <p>{{ experience.description }}</p>
 
