@@ -10,14 +10,6 @@ export class ExperiencesService
     private professionalExperiences: Experience[] =
     [
         new Experience(
-            "Suspension de la formation",
-            2025,
-            2026,
-            null,
-            "Pour des raisons de santé, l'AI Vaud et l'ORIF ont décidé de suspendre ma formation pour une année.",
-            []
-        ),
-        new Experience(
             "Apprenti développeur d'applications CFC",
             2022,
             2025,
@@ -79,17 +71,9 @@ export class ExperiencesService
     private scholarExperiences: Experience[] =
     [
         new Experience(
-            "Suspension de la formation",
-            2025,
-            2026,
-            null,
-            "Pour des raisons de santé, l'AI Vaud et l'ORIF ont décidé de suspendre ma formation pour une année.",
-            []
-        ),
-        new Experience(
             "Apprenti développeur d'applications CFC",
             2022,
-            null,
+            2025,
             {
                 name: "EPSIC - École professionnelle",
                 address: "Rue de Genève",
