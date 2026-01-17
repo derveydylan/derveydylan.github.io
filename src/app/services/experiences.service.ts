@@ -20,10 +20,11 @@ export class ExperiencesService
                 npa: 1405,
                 city: "Pomy"
             },
-            "J'effectue ma formation en crééant des projets réalistes et \
-            utiles pour la section ou l'ORIF, afin d'acquérir davantage \
-            d'expérience professionnelle et apprendre de nouvelles technologies. \
-            Je code sur du backend comme sur du frontend.",
+            "Durant la formation, j'ai créé des projets internes réalistes et \
+            couramment utilisés par la section informatique de l'ORIF de Pomy.\
+            En codant sur du backend comme sur du frontend, j'ai acquis de \
+            l'expérience professionnelle et j'ai appris à manier \
+            de nouvelles technologies, vieilles comme modernes. ",
             [
                 "Bootstrap", "CSS", "CodeIgniter", "Figma", "HTML", "JavaScript", "MySQL", "PHP", "React", "Tailwind"
             ]
@@ -81,7 +82,7 @@ export class ExperiencesService
                 npa: 1004,
                 city: "Lausanne"
             },
-            "J'acquiers de nouvelles connaissances dans divers domaines pour mon futur métier. Jusqu'à présent, mes notes sont majoritairement excellentes.",
+            "J'ai acquis de nouvelles connaissances dans divers domaines pour mon futur métier. Mes notes ont majoritairement été excellentes.",
             [
                 "Angular", "Bash", "Capacitor", "CSharp", "CSS", "Docker", "ExpressJS", "Figma", "HTML", "Ionic", "Java", "JavaScript", "MongoDB", "MySQL"
             ]

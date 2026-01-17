@@ -25,7 +25,7 @@ export class CharacteristicsService
             "Organisé",
             "calendar-days",
             "Mon environnement de travail est organisé, propre. \
-            Un espace ordonné m'aide à me répérer et à exceller."
+            Un espace ordonné m'aide à me repérer et à exceller."
         ),
         new Characteristic(
             "Méthodique",
